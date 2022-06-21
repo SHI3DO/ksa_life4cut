@@ -692,18 +692,6 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_8.addWidget(self.btn_widgets)
 
-        self.btn_new = QPushButton(self.topMenu)
-        self.btn_new.setObjectName(u"btn_new")
-        sizePolicy.setHeightForWidth(self.btn_new.sizePolicy().hasHeightForWidth())
-        self.btn_new.setSizePolicy(sizePolicy)
-        self.btn_new.setMinimumSize(QSize(0, 45))
-        self.btn_new.setFont(font)
-        self.btn_new.setCursor(QCursor(Qt.PointingHandCursor))
-        self.btn_new.setLayoutDirection(Qt.LeftToRight)
-        self.btn_new.setStyleSheet(u"background-image: url(:/icons/images/icons/cil-chat-bubble.png);")
-
-        self.verticalLayout_8.addWidget(self.btn_new)
-
         self.btn_exit = QPushButton(self.topMenu)
         self.btn_exit.setObjectName(u"btn_exit")
         sizePolicy.setHeightForWidth(self.btn_exit.sizePolicy().hasHeightForWidth())
@@ -822,42 +810,6 @@ class Ui_MainWindow(object):
         self.verticalLayout_11.setSpacing(0)
         self.verticalLayout_11.setObjectName(u"verticalLayout_11")
         self.verticalLayout_11.setContentsMargins(0, 0, 0, 0)
-        self.btn_share = QPushButton(self.extraTopMenu)
-        self.btn_share.setObjectName(u"btn_share")
-        sizePolicy.setHeightForWidth(self.btn_share.sizePolicy().hasHeightForWidth())
-        self.btn_share.setSizePolicy(sizePolicy)
-        self.btn_share.setMinimumSize(QSize(0, 45))
-        self.btn_share.setFont(font)
-        self.btn_share.setCursor(QCursor(Qt.PointingHandCursor))
-        self.btn_share.setLayoutDirection(Qt.LeftToRight)
-        self.btn_share.setStyleSheet(u"background-image: url(:/icons/images/icons/cil-share-boxed.png);")
-
-        self.verticalLayout_11.addWidget(self.btn_share)
-
-        self.btn_adjustments = QPushButton(self.extraTopMenu)
-        self.btn_adjustments.setObjectName(u"btn_adjustments")
-        sizePolicy.setHeightForWidth(self.btn_adjustments.sizePolicy().hasHeightForWidth())
-        self.btn_adjustments.setSizePolicy(sizePolicy)
-        self.btn_adjustments.setMinimumSize(QSize(0, 45))
-        self.btn_adjustments.setFont(font)
-        self.btn_adjustments.setCursor(QCursor(Qt.PointingHandCursor))
-        self.btn_adjustments.setLayoutDirection(Qt.LeftToRight)
-        self.btn_adjustments.setStyleSheet(u"background-image: url(:/icons/images/icons/cil-equalizer.png);")
-
-        self.verticalLayout_11.addWidget(self.btn_adjustments)
-
-        self.btn_more = QPushButton(self.extraTopMenu)
-        self.btn_more.setObjectName(u"btn_more")
-        sizePolicy.setHeightForWidth(self.btn_more.sizePolicy().hasHeightForWidth())
-        self.btn_more.setSizePolicy(sizePolicy)
-        self.btn_more.setMinimumSize(QSize(0, 45))
-        self.btn_more.setFont(font)
-        self.btn_more.setCursor(QCursor(Qt.PointingHandCursor))
-        self.btn_more.setLayoutDirection(Qt.LeftToRight)
-        self.btn_more.setStyleSheet(u"background-image: url(:/icons/images/icons/cil-layers.png);")
-
-        self.verticalLayout_11.addWidget(self.btn_more)
-
 
         self.verticalLayout_12.addWidget(self.extraTopMenu, 0, Qt.AlignTop)
 
@@ -1157,7 +1109,7 @@ class Ui_MainWindow(object):
         self.scrollArea.setWidgetResizable(True)
         self.scrollAreaWidgetContents = QWidget()
         self.scrollAreaWidgetContents.setObjectName(u"scrollAreaWidgetContents")
-        self.scrollAreaWidgetContents.setGeometry(QRect(0, 0, 226, 226))
+        self.scrollAreaWidgetContents.setGeometry(QRect(0, 0, 303, 226))
         self.scrollAreaWidgetContents.setStyleSheet(u" QScrollBar:vertical {\n"
 "	border: none;\n"
 "    background: rgb(52, 59, 72);\n"
@@ -1289,6 +1241,34 @@ class Ui_MainWindow(object):
         self.tableWidget.setItem(0, 2, __qtablewidgetitem22)
         __qtablewidgetitem23 = QTableWidgetItem()
         self.tableWidget.setItem(0, 3, __qtablewidgetitem23)
+        __qtablewidgetitem24 = QTableWidgetItem()
+        self.tableWidget.setItem(1, 1, __qtablewidgetitem24)
+        __qtablewidgetitem25 = QTableWidgetItem()
+        self.tableWidget.setItem(1, 2, __qtablewidgetitem25)
+        __qtablewidgetitem26 = QTableWidgetItem()
+        self.tableWidget.setItem(3, 1, __qtablewidgetitem26)
+        __qtablewidgetitem27 = QTableWidgetItem()
+        self.tableWidget.setItem(3, 2, __qtablewidgetitem27)
+        __qtablewidgetitem28 = QTableWidgetItem()
+        self.tableWidget.setItem(5, 1, __qtablewidgetitem28)
+        __qtablewidgetitem29 = QTableWidgetItem()
+        self.tableWidget.setItem(5, 2, __qtablewidgetitem29)
+        __qtablewidgetitem30 = QTableWidgetItem()
+        self.tableWidget.setItem(6, 1, __qtablewidgetitem30)
+        __qtablewidgetitem31 = QTableWidgetItem()
+        self.tableWidget.setItem(6, 2, __qtablewidgetitem31)
+        __qtablewidgetitem32 = QTableWidgetItem()
+        self.tableWidget.setItem(7, 1, __qtablewidgetitem32)
+        __qtablewidgetitem33 = QTableWidgetItem()
+        self.tableWidget.setItem(7, 2, __qtablewidgetitem33)
+        __qtablewidgetitem34 = QTableWidgetItem()
+        self.tableWidget.setItem(8, 1, __qtablewidgetitem34)
+        __qtablewidgetitem35 = QTableWidgetItem()
+        self.tableWidget.setItem(8, 2, __qtablewidgetitem35)
+        __qtablewidgetitem36 = QTableWidgetItem()
+        self.tableWidget.setItem(9, 1, __qtablewidgetitem36)
+        __qtablewidgetitem37 = QTableWidgetItem()
+        self.tableWidget.setItem(9, 2, __qtablewidgetitem37)
         self.tableWidget.setObjectName(u"tableWidget")
         sizePolicy3 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
         sizePolicy3.setHorizontalStretch(0)
@@ -1353,12 +1333,6 @@ class Ui_MainWindow(object):
         self.new_page.setObjectName(u"new_page")
         self.verticalLayout_20 = QVBoxLayout(self.new_page)
         self.verticalLayout_20.setObjectName(u"verticalLayout_20")
-        self.label = QLabel(self.new_page)
-        self.label.setObjectName(u"label")
-        self.label.setAlignment(Qt.AlignCenter)
-
-        self.verticalLayout_20.addWidget(self.label)
-
         self.stackedWidget.addWidget(self.new_page)
 
         self.verticalLayout_15.addWidget(self.stackedWidget)
@@ -1477,7 +1451,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.stackedWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(1)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -1485,37 +1459,28 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
-        self.titleLeftApp.setText(QCoreApplication.translate("MainWindow", u"Daisy", None))
-        self.titleLeftDescription.setText(QCoreApplication.translate("MainWindow", u"Wallpaper Engine", None))
+        self.titleLeftApp.setText(QCoreApplication.translate("MainWindow", u"ksa_life4cut", None))
+        self.titleLeftDescription.setText(QCoreApplication.translate("MainWindow", u"life-4-cut", None))
         self.toggleButton.setText(QCoreApplication.translate("MainWindow", u"Hide", None))
         self.btn_home.setText(QCoreApplication.translate("MainWindow", u"Home", None))
         self.btn_widgets.setText(QCoreApplication.translate("MainWindow", u"Explore", None))
-        self.btn_new.setText(QCoreApplication.translate("MainWindow", u"New", None))
         self.btn_exit.setText(QCoreApplication.translate("MainWindow", u"Exit", None))
-        self.toggleLeftBox.setText(QCoreApplication.translate("MainWindow", u"Left Box", None))
-        self.extraLabel.setText(QCoreApplication.translate("MainWindow", u"Left Box", None))
+        self.toggleLeftBox.setText(QCoreApplication.translate("MainWindow", u"Info", None))
+        self.extraLabel.setText(QCoreApplication.translate("MainWindow", u"Info", None))
 #if QT_CONFIG(tooltip)
         self.extraCloseColumnBtn.setToolTip(QCoreApplication.translate("MainWindow", u"Close left box", None))
 #endif // QT_CONFIG(tooltip)
         self.extraCloseColumnBtn.setText("")
-        self.btn_share.setText(QCoreApplication.translate("MainWindow", u"Share", None))
-        self.btn_adjustments.setText(QCoreApplication.translate("MainWindow", u"Adjustments", None))
-        self.btn_more.setText(QCoreApplication.translate("MainWindow", u"More", None))
         self.textEdit.setHtml(QCoreApplication.translate("MainWindow", u"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Segoe UI'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600; color:#ff79c6;\">PyDracula</span></p>\n"
-"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#ffffff;\">An interface created using Python and PySide (support for PyQt), and with colors based on the Dracula theme created by Zeno Rocha.</span></p>\n"
-"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><"
-                        "span style=\" color:#ffffff;\">MIT License</span></p>\n"
-"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#bd93f9;\">Created by: Wanderson M. Pimenta</span></p>\n"
-"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600; color:#ff79c6;\">Convert UI</span></p>\n"
-"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:9pt; color:#ffffff;\">pyside6-uic main.ui &gt; ui_main.py</span></p>\n"
-"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600; color:#ff79c6;\">Convert QRC</span></p>\n"
-"<p align=\"center\" style=\" margin-top:12px; "
-                        "margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:9pt; color:#ffffff;\">pyside6-rcc resources.qrc -o resources_rc.py</span></p></body></html>", None))
-        self.titleRightInfo.setText(QCoreApplication.translate("MainWindow", u"KSA - \uc778\uc0dd \ub124\ucef7", None))
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#ffffff;\">ksa_life4cut</span></p>\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#ffffff;\">Made by 22-094 (shi3do).</span></p>\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#ffffff;\">MIT License</span></p>\n"
+"<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:12px; margin-"
+                        "bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>", None))
+        self.titleRightInfo.setText(QCoreApplication.translate("MainWindow", u"SHI3DO - ksa_life4cut", None))
 #if QT_CONFIG(tooltip)
         self.settingsTopBtn.setToolTip(QCoreApplication.translate("MainWindow", u"Settings", None))
 #endif // QT_CONFIG(tooltip)
@@ -1594,11 +1559,38 @@ class Ui_MainWindow(object):
         ___qtablewidgetitem22.setText(QCoreApplication.translate("MainWindow", u"Cell", None));
         ___qtablewidgetitem23 = self.tableWidget.item(0, 3)
         ___qtablewidgetitem23.setText(QCoreApplication.translate("MainWindow", u"Line", None));
+        ___qtablewidgetitem24 = self.tableWidget.item(1, 1)
+        ___qtablewidgetitem24.setText(QCoreApplication.translate("MainWindow", u"help me", None));
+        ___qtablewidgetitem25 = self.tableWidget.item(1, 2)
+        ___qtablewidgetitem25.setText(QCoreApplication.translate("MainWindow", u"plz", None));
+        ___qtablewidgetitem26 = self.tableWidget.item(3, 1)
+        ___qtablewidgetitem26.setText(QCoreApplication.translate("MainWindow", u"help me", None));
+        ___qtablewidgetitem27 = self.tableWidget.item(3, 2)
+        ___qtablewidgetitem27.setText(QCoreApplication.translate("MainWindow", u"plz", None));
+        ___qtablewidgetitem28 = self.tableWidget.item(5, 1)
+        ___qtablewidgetitem28.setText(QCoreApplication.translate("MainWindow", u"perigee", None));
+        ___qtablewidgetitem29 = self.tableWidget.item(5, 2)
+        ___qtablewidgetitem29.setText(QCoreApplication.translate("MainWindow", u"where are you?", None));
+        ___qtablewidgetitem30 = self.tableWidget.item(6, 1)
+        ___qtablewidgetitem30.setText(QCoreApplication.translate("MainWindow", u"minsooooo", None));
+        ___qtablewidgetitem31 = self.tableWidget.item(6, 2)
+        ___qtablewidgetitem31.setText(QCoreApplication.translate("MainWindow", u"wut", None));
+        ___qtablewidgetitem32 = self.tableWidget.item(7, 1)
+        ___qtablewidgetitem32.setText(QCoreApplication.translate("MainWindow", u"German", None));
+        ___qtablewidgetitem33 = self.tableWidget.item(7, 2)
+        ___qtablewidgetitem33.setText(QCoreApplication.translate("MainWindow", u"k", None));
+        ___qtablewidgetitem34 = self.tableWidget.item(8, 1)
+        ___qtablewidgetitem34.setText(QCoreApplication.translate("MainWindow", u"Asser", None));
+        ___qtablewidgetitem35 = self.tableWidget.item(8, 2)
+        ___qtablewidgetitem35.setText(QCoreApplication.translate("MainWindow", u"TV", None));
+        ___qtablewidgetitem36 = self.tableWidget.item(9, 1)
+        ___qtablewidgetitem36.setText(QCoreApplication.translate("MainWindow", u"Soviet", None));
+        ___qtablewidgetitem37 = self.tableWidget.item(9, 2)
+        ___qtablewidgetitem37.setText(QCoreApplication.translate("MainWindow", u"mul", None));
         self.tableWidget.setSortingEnabled(__sortingEnabled)
 
-        self.label.setText(QCoreApplication.translate("MainWindow", u"NEW PAGE TEST", None))
         self.btn_github.setText(QCoreApplication.translate("MainWindow", u"Github", None))
         self.creditsLabel.setText(QCoreApplication.translate("MainWindow", u"SHI3DO", None))
-        self.version.setText(QCoreApplication.translate("MainWindow", u"v1.0.0", None))
+        self.version.setText(QCoreApplication.translate("MainWindow", u"v0.0.1", None))
     # retranslateUi
 

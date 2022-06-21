@@ -694,7 +694,7 @@ background-repeat: no-repeat;</string>
               </font>
              </property>
              <property name="text">
-              <string>Daisy</string>
+              <string>ksa_life4cut</string>
              </property>
              <property name="alignment">
               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -725,7 +725,7 @@ background-repeat: no-repeat;</string>
               </font>
              </property>
              <property name="text">
-              <string>Wallpaper Engine</string>
+              <string>life-4-cut</string>
              </property>
              <property name="alignment">
               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -926,43 +926,6 @@ background-repeat: no-repeat;</string>
                  </widget>
                 </item>
                 <item>
-                 <widget class="QPushButton" name="btn_new">
-                  <property name="sizePolicy">
-                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-                    <horstretch>0</horstretch>
-                    <verstretch>0</verstretch>
-                   </sizepolicy>
-                  </property>
-                  <property name="minimumSize">
-                   <size>
-                    <width>0</width>
-                    <height>45</height>
-                   </size>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <family>Segoe UI</family>
-                    <pointsize>10</pointsize>
-                    <weight>50</weight>
-                    <italic>false</italic>
-                    <bold>false</bold>
-                   </font>
-                  </property>
-                  <property name="cursor">
-                   <cursorShape>PointingHandCursor</cursorShape>
-                  </property>
-                  <property name="layoutDirection">
-                   <enum>Qt::LeftToRight</enum>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">background-image: url(:/icons/images/icons/cil-chat-bubble.png);</string>
-                  </property>
-                  <property name="text">
-                   <string>New</string>
-                  </property>
-                 </widget>
-                </item>
-                <item>
                  <widget class="QPushButton" name="btn_exit">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
@@ -1059,7 +1022,7 @@ background-repeat: no-repeat;</string>
                    <string notr="true">background-image: url(:/icons/images/icons/icon_settings.png);</string>
                   </property>
                   <property name="text">
-                   <string>Left Box</string>
+                   <string>Info</string>
                   </property>
                  </widget>
                 </item>
@@ -1189,7 +1152,7 @@ background-repeat: no-repeat;</string>
                   </size>
                  </property>
                  <property name="text">
-                  <string>Left Box</string>
+                  <string>Info</string>
                  </property>
                 </widget>
                </item>
@@ -1281,117 +1244,6 @@ background-repeat: no-repeat;</string>
                 <property name="bottomMargin">
                  <number>0</number>
                 </property>
-                <item>
-                 <widget class="QPushButton" name="btn_share">
-                  <property name="sizePolicy">
-                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-                    <horstretch>0</horstretch>
-                    <verstretch>0</verstretch>
-                   </sizepolicy>
-                  </property>
-                  <property name="minimumSize">
-                   <size>
-                    <width>0</width>
-                    <height>45</height>
-                   </size>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <family>Segoe UI</family>
-                    <pointsize>10</pointsize>
-                    <weight>50</weight>
-                    <italic>false</italic>
-                    <bold>false</bold>
-                   </font>
-                  </property>
-                  <property name="cursor">
-                   <cursorShape>PointingHandCursor</cursorShape>
-                  </property>
-                  <property name="layoutDirection">
-                   <enum>Qt::LeftToRight</enum>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">background-image: url(:/icons/images/icons/cil-share-boxed.png);</string>
-                  </property>
-                  <property name="text">
-                   <string>Share</string>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <widget class="QPushButton" name="btn_adjustments">
-                  <property name="sizePolicy">
-                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-                    <horstretch>0</horstretch>
-                    <verstretch>0</verstretch>
-                   </sizepolicy>
-                  </property>
-                  <property name="minimumSize">
-                   <size>
-                    <width>0</width>
-                    <height>45</height>
-                   </size>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <family>Segoe UI</family>
-                    <pointsize>10</pointsize>
-                    <weight>50</weight>
-                    <italic>false</italic>
-                    <bold>false</bold>
-                   </font>
-                  </property>
-                  <property name="cursor">
-                   <cursorShape>PointingHandCursor</cursorShape>
-                  </property>
-                  <property name="layoutDirection">
-                   <enum>Qt::LeftToRight</enum>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">background-image: url(:/icons/images/icons/cil-equalizer.png);</string>
-                  </property>
-                  <property name="text">
-                   <string>Adjustments</string>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <widget class="QPushButton" name="btn_more">
-                  <property name="sizePolicy">
-                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-                    <horstretch>0</horstretch>
-                    <verstretch>0</verstretch>
-                   </sizepolicy>
-                  </property>
-                  <property name="minimumSize">
-                   <size>
-                    <width>0</width>
-                    <height>45</height>
-                   </size>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <family>Segoe UI</family>
-                    <pointsize>10</pointsize>
-                    <weight>50</weight>
-                    <italic>false</italic>
-                    <bold>false</bold>
-                   </font>
-                  </property>
-                  <property name="cursor">
-                   <cursorShape>PointingHandCursor</cursorShape>
-                  </property>
-                  <property name="layoutDirection">
-                   <enum>Qt::LeftToRight</enum>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">background-image: url(:/icons/images/icons/cil-layers.png);</string>
-                  </property>
-                  <property name="text">
-                   <string>More</string>
-                  </property>
-                 </widget>
-                </item>
                </layout>
               </widget>
              </item>
@@ -1426,14 +1278,10 @@ background-repeat: no-repeat;</string>
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ff79c6;&quot;&gt;PyDracula&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;An interface created using Python and PySide (support for PyQt), and with colors based on the Dracula theme created by Zeno Rocha.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;ksa_life4cut&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Made by 22-094 (shi3do).&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;MIT License&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#bd93f9;&quot;&gt;Created by: Wanderson M. Pimenta&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ff79c6;&quot;&gt;Convert UI&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt; color:#ffffff;&quot;&gt;pyside6-uic main.ui &amp;gt; ui_main.py&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ff79c6;&quot;&gt;Convert QRC&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt; color:#ffffff;&quot;&gt;pyside6-rcc resources.qrc -o resources_rc.py&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                   </property>
                  </widget>
                 </item>
@@ -1570,7 +1418,7 @@ p, li { white-space: pre-wrap; }
                    </font>
                   </property>
                   <property name="text">
-                   <string>KSA - 인생 네컷</string>
+                   <string>SHI3DO - ksa_life4cut</string>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -1847,7 +1695,7 @@ p, li { white-space: pre-wrap; }
                       <string notr="true">background: transparent;</string>
                      </property>
                      <property name="currentIndex">
-                      <number>0</number>
+                      <number>1</number>
                      </property>
                      <widget class="QWidget" name="home">
                       <property name="styleSheet">
@@ -2100,7 +1948,7 @@ background-repeat: no-repeat;</string>
                                 <rect>
                                  <x>0</x>
                                  <y>0</y>
-                                 <width>226</width>
+                                 <width>303</width>
                                  <height>226</height>
                                 </rect>
                                </property>
@@ -2612,6 +2460,76 @@ background-repeat: no-repeat;</string>
                               <string>Line</string>
                              </property>
                             </item>
+                            <item row="1" column="1">
+                             <property name="text">
+                              <string>help me</string>
+                             </property>
+                            </item>
+                            <item row="1" column="2">
+                             <property name="text">
+                              <string>plz</string>
+                             </property>
+                            </item>
+                            <item row="3" column="1">
+                             <property name="text">
+                              <string>help me</string>
+                             </property>
+                            </item>
+                            <item row="3" column="2">
+                             <property name="text">
+                              <string>plz</string>
+                             </property>
+                            </item>
+                            <item row="5" column="1">
+                             <property name="text">
+                              <string>perigee</string>
+                             </property>
+                            </item>
+                            <item row="5" column="2">
+                             <property name="text">
+                              <string>where are you?</string>
+                             </property>
+                            </item>
+                            <item row="6" column="1">
+                             <property name="text">
+                              <string>minsooooo</string>
+                             </property>
+                            </item>
+                            <item row="6" column="2">
+                             <property name="text">
+                              <string>wut</string>
+                             </property>
+                            </item>
+                            <item row="7" column="1">
+                             <property name="text">
+                              <string>German</string>
+                             </property>
+                            </item>
+                            <item row="7" column="2">
+                             <property name="text">
+                              <string>k</string>
+                             </property>
+                            </item>
+                            <item row="8" column="1">
+                             <property name="text">
+                              <string>Asser</string>
+                             </property>
+                            </item>
+                            <item row="8" column="2">
+                             <property name="text">
+                              <string>TV</string>
+                             </property>
+                            </item>
+                            <item row="9" column="1">
+                             <property name="text">
+                              <string>Soviet</string>
+                             </property>
+                            </item>
+                            <item row="9" column="2">
+                             <property name="text">
+                              <string>mul</string>
+                             </property>
+                            </item>
                            </widget>
                           </item>
                          </layout>
@@ -2620,18 +2538,7 @@ background-repeat: no-repeat;</string>
                       </layout>
                      </widget>
                      <widget class="QWidget" name="new_page">
-                      <layout class="QVBoxLayout" name="verticalLayout_20">
-                       <item>
-                        <widget class="QLabel" name="label">
-                         <property name="text">
-                          <string>NEW PAGE TEST</string>
-                         </property>
-                         <property name="alignment">
-                          <set>Qt::AlignCenter</set>
-                         </property>
-                        </widget>
-                       </item>
-                      </layout>
+                      <layout class="QVBoxLayout" name="verticalLayout_20"/>
                      </widget>
                     </widget>
                    </item>
@@ -2851,7 +2758,7 @@ background-repeat: no-repeat;</string>
                 <item>
                  <widget class="QLabel" name="version">
                   <property name="text">
-                   <string>v1.0.0</string>
+                   <string>v0.0.1</string>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>

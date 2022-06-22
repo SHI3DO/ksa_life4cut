@@ -166,7 +166,7 @@ class MainWindow(QMainWindow):
         print(self.radio1.isChecked(), self.radio2.isChecked(), self.radio3.isChecked(), self.radio4.isChecked(),
               self.radio5.isChecked(), self.radio6.isChecked(), self.radio7.isChecked(), self.radio8.isChecked())
 
-        photo_file_list_v2 = os.listdir(load_file("Userdata/"))
+        photo_file_list_v2 = os.listdir(load_file("./Userdata/"))
         photo_file_list_v2 = [file for file in photo_file_list_v2 if
                               file.endswith(".jpg") or file.endswith(".png") and file != "null.png"]
 

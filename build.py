@@ -29,7 +29,6 @@ def build(withconsole):
             FontFolder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Font")
             ThemesFolder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "themes")
             ImagesFolder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "images")
-            UserdataFolder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Userdata")
 
             if withconsole:
                 command = f"python -m nuitka --mingw64 --show-modules --follow-imports " \
@@ -41,7 +40,6 @@ def build(withconsole):
                           f"--include-data-dir={FontFolder}=Font " \
                           f"--include-data-dir={ThemesFolder}=themes " \
                           f"--include-data-dir={ImagesFolder}=images " \
-                          f"--include-data-dir={UserdataFolder}=Userdata " \
                           f"--enable-plugin=pyside6 " \
                           f"--include-package=PIL " \
                           f"{buildfile_name}"
@@ -55,7 +53,6 @@ def build(withconsole):
                           f"--include-data-dir={FontFolder}=Font " \
                           f"--include-data-dir={ThemesFolder}=themes " \
                           f"--include-data-dir={ImagesFolder}=images " \
-                          f"--include-data-dir={UserdataFolder}=Userdata " \
                           f"--enable-plugin=pyside6 " \
                           f"--include-package=PIL " \
                           f"--windows-disable-console " \

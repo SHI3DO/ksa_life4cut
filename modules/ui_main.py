@@ -28,7 +28,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(1280, 720)
+        MainWindow.resize(1124, 720)
         MainWindow.setMinimumSize(QSize(940, 560))
         icon = QIcon()
         icon.addFile(u":/images/images/images/ksa_life4cut.png", QSize(), QIcon.Normal, QIcon.Off)
@@ -991,6 +991,184 @@ class Ui_MainWindow(object):
         self.home = QWidget()
         self.home.setObjectName(u"home")
         self.home.setStyleSheet(u"")
+        self.gridLayout_3 = QGridLayout(self.home)
+        self.gridLayout_3.setObjectName(u"gridLayout_3")
+        self.gridLayout_3.setContentsMargins(10, 10, 10, 10)
+        self.horizontalLayout_6 = QHBoxLayout()
+        self.horizontalLayout_6.setObjectName(u"horizontalLayout_6")
+        self.horizontalLayout_6.setContentsMargins(-1, -1, -1, 0)
+        self.verticalLayout_26 = QVBoxLayout()
+        self.verticalLayout_26.setObjectName(u"verticalLayout_26")
+        self.label_4 = QLabel(self.home)
+        self.label_4.setObjectName(u"label_4")
+
+        self.verticalLayout_26.addWidget(self.label_4)
+
+        self.radioButton_4 = QRadioButton(self.home)
+        self.radioButton_4.setObjectName(u"radioButton_4")
+        self.radioButton_4.setAutoExclusive(False)
+
+        self.verticalLayout_26.addWidget(self.radioButton_4)
+
+
+        self.horizontalLayout_6.addLayout(self.verticalLayout_26)
+
+        self.verticalLayout_27 = QVBoxLayout()
+        self.verticalLayout_27.setObjectName(u"verticalLayout_27")
+        self.label_3 = QLabel(self.home)
+        self.label_3.setObjectName(u"label_3")
+
+        self.verticalLayout_27.addWidget(self.label_3)
+
+        self.radioButton_3 = QRadioButton(self.home)
+        self.radioButton_3.setObjectName(u"radioButton_3")
+        self.radioButton_3.setAutoExclusive(False)
+
+        self.verticalLayout_27.addWidget(self.radioButton_3)
+
+
+        self.horizontalLayout_6.addLayout(self.verticalLayout_27)
+
+        self.verticalLayout_28 = QVBoxLayout()
+        self.verticalLayout_28.setObjectName(u"verticalLayout_28")
+        self.label_2 = QLabel(self.home)
+        self.label_2.setObjectName(u"label_2")
+
+        self.verticalLayout_28.addWidget(self.label_2)
+
+        self.radioButton_2 = QRadioButton(self.home)
+        self.radioButton_2.setObjectName(u"radioButton_2")
+        self.radioButton_2.setAutoExclusive(False)
+
+        self.verticalLayout_28.addWidget(self.radioButton_2)
+
+
+        self.horizontalLayout_6.addLayout(self.verticalLayout_28)
+
+        self.verticalLayout_25 = QVBoxLayout()
+        self.verticalLayout_25.setObjectName(u"verticalLayout_25")
+        self.label = QLabel(self.home)
+        self.label.setObjectName(u"label")
+
+        self.verticalLayout_25.addWidget(self.label)
+
+        self.radioButton_1 = QRadioButton(self.home)
+        self.radioButton_1.setObjectName(u"radioButton_1")
+        self.radioButton_1.setAutoExclusive(False)
+
+        self.verticalLayout_25.addWidget(self.radioButton_1)
+
+
+        self.horizontalLayout_6.addLayout(self.verticalLayout_25)
+
+
+        self.gridLayout_3.addLayout(self.horizontalLayout_6, 1, 0, 1, 1)
+
+        self.horizontalLayout_7 = QHBoxLayout()
+        self.horizontalLayout_7.setObjectName(u"horizontalLayout_7")
+        self.horizontalLayout_7.setContentsMargins(-1, -1, -1, 0)
+        self.verticalLayout_18 = QVBoxLayout()
+        self.verticalLayout_18.setObjectName(u"verticalLayout_18")
+        self.label_8 = QLabel(self.home)
+        self.label_8.setObjectName(u"label_8")
+
+        self.verticalLayout_18.addWidget(self.label_8)
+
+        self.radioButton_8 = QRadioButton(self.home)
+        self.radioButton_8.setObjectName(u"radioButton_8")
+        self.radioButton_8.setAutoExclusive(False)
+
+        self.verticalLayout_18.addWidget(self.radioButton_8)
+
+
+        self.horizontalLayout_7.addLayout(self.verticalLayout_18)
+
+        self.verticalLayout_22 = QVBoxLayout()
+        self.verticalLayout_22.setObjectName(u"verticalLayout_22")
+        self.label_7 = QLabel(self.home)
+        self.label_7.setObjectName(u"label_7")
+
+        self.verticalLayout_22.addWidget(self.label_7)
+
+        self.radioButton_7 = QRadioButton(self.home)
+        self.radioButton_7.setObjectName(u"radioButton_7")
+        self.radioButton_7.setAutoExclusive(False)
+
+        self.verticalLayout_22.addWidget(self.radioButton_7)
+
+
+        self.horizontalLayout_7.addLayout(self.verticalLayout_22)
+
+        self.verticalLayout_23 = QVBoxLayout()
+        self.verticalLayout_23.setObjectName(u"verticalLayout_23")
+        self.label_6 = QLabel(self.home)
+        self.label_6.setObjectName(u"label_6")
+
+        self.verticalLayout_23.addWidget(self.label_6)
+
+        self.radioButton_6 = QRadioButton(self.home)
+        self.radioButton_6.setObjectName(u"radioButton_6")
+        self.radioButton_6.setAutoExclusive(False)
+
+        self.verticalLayout_23.addWidget(self.radioButton_6)
+
+
+        self.horizontalLayout_7.addLayout(self.verticalLayout_23)
+
+        self.verticalLayout_24 = QVBoxLayout()
+        self.verticalLayout_24.setObjectName(u"verticalLayout_24")
+        self.label_5 = QLabel(self.home)
+        self.label_5.setObjectName(u"label_5")
+
+        self.verticalLayout_24.addWidget(self.label_5)
+
+        self.radioButton_5 = QRadioButton(self.home)
+        self.radioButton_5.setObjectName(u"radioButton_5")
+        self.radioButton_5.setAutoExclusive(False)
+
+        self.verticalLayout_24.addWidget(self.radioButton_5)
+
+
+        self.horizontalLayout_7.addLayout(self.verticalLayout_24)
+
+
+        self.gridLayout_3.addLayout(self.horizontalLayout_7, 0, 0, 1, 1)
+
+        self.verticalLayout_21 = QVBoxLayout()
+        self.verticalLayout_21.setObjectName(u"verticalLayout_21")
+        self.plainTextEdit_2 = QPlainTextEdit(self.home)
+        self.plainTextEdit_2.setObjectName(u"plainTextEdit_2")
+        sizePolicy3 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+        sizePolicy3.setHorizontalStretch(0)
+        sizePolicy3.setVerticalStretch(0)
+        sizePolicy3.setHeightForWidth(self.plainTextEdit_2.sizePolicy().hasHeightForWidth())
+        self.plainTextEdit_2.setSizePolicy(sizePolicy3)
+        self.plainTextEdit_2.setMinimumSize(QSize(200, 200))
+        self.plainTextEdit_2.setMaximumSize(QSize(16777215, 16777215))
+        self.plainTextEdit_2.setFont(font)
+        self.plainTextEdit_2.setStyleSheet(u"background-color: rgb(33, 37, 43);")
+        self.plainTextEdit_2.setReadOnly(True)
+
+        self.verticalLayout_21.addWidget(self.plainTextEdit_2)
+
+
+        self.gridLayout_3.addLayout(self.verticalLayout_21, 3, 0, 1, 1)
+
+        self.verticalLayout_29 = QVBoxLayout()
+        self.verticalLayout_29.setObjectName(u"verticalLayout_29")
+        self.verticalLayout_29.setContentsMargins(-1, -1, -1, 0)
+        self.runButton = QPushButton(self.home)
+        self.runButton.setObjectName(u"runButton")
+        self.runButton.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        icon5 = QIcon()
+        icon5.addFile(u":/icons/images/icons/cil-check-circle.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.runButton.setIcon(icon5)
+
+        self.verticalLayout_29.addWidget(self.runButton)
+
+
+        self.gridLayout_3.addLayout(self.verticalLayout_29, 2, 0, 1, 1)
+
         self.stackedWidget.addWidget(self.home)
         self.widgets = QWidget()
         self.widgets.setObjectName(u"widgets")
@@ -1032,9 +1210,9 @@ class Ui_MainWindow(object):
         self.pushButton.setFont(font)
         self.pushButton.setCursor(QCursor(Qt.PointingHandCursor))
         self.pushButton.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon5 = QIcon()
-        icon5.addFile(u":/icons/images/icons/cil-find-in-page.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton.setIcon(icon5)
+        icon6 = QIcon()
+        icon6.addFile(u":/icons/images/icons/cil-find-in-page.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton.setIcon(icon6)
 
         self.gridLayout.addWidget(self.pushButton, 0, 1, 1, 1)
 
@@ -1108,7 +1286,7 @@ class Ui_MainWindow(object):
         self.scrollArea.setWidgetResizable(True)
         self.scrollAreaWidgetContents = QWidget()
         self.scrollAreaWidgetContents.setObjectName(u"scrollAreaWidgetContents")
-        self.scrollAreaWidgetContents.setGeometry(QRect(0, 0, 303, 226))
+        self.scrollAreaWidgetContents.setGeometry(QRect(0, 0, 282, 226))
         self.scrollAreaWidgetContents.setStyleSheet(u" QScrollBar:vertical {\n"
 "	border: none;\n"
 "    background: rgb(52, 59, 72);\n"
@@ -1156,9 +1334,9 @@ class Ui_MainWindow(object):
         self.commandLinkButton.setObjectName(u"commandLinkButton")
         self.commandLinkButton.setCursor(QCursor(Qt.PointingHandCursor))
         self.commandLinkButton.setStyleSheet(u"")
-        icon6 = QIcon()
-        icon6.addFile(u":/icons/images/icons/cil-link.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.commandLinkButton.setIcon(icon6)
+        icon7 = QIcon()
+        icon7.addFile(u":/icons/images/icons/cil-link.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.commandLinkButton.setIcon(icon7)
 
         self.gridLayout_2.addWidget(self.commandLinkButton, 1, 6, 1, 1)
 
@@ -1269,9 +1447,7 @@ class Ui_MainWindow(object):
         __qtablewidgetitem37 = QTableWidgetItem()
         self.tableWidget.setItem(9, 2, __qtablewidgetitem37)
         self.tableWidget.setObjectName(u"tableWidget")
-        sizePolicy3 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
-        sizePolicy3.setHorizontalStretch(0)
-        sizePolicy3.setVerticalStretch(0)
+        self.tableWidget.setEnabled(True)
         sizePolicy3.setHeightForWidth(self.tableWidget.sizePolicy().hasHeightForWidth())
         self.tableWidget.setSizePolicy(sizePolicy3)
         palette = QPalette()
@@ -1496,6 +1672,23 @@ class Ui_MainWindow(object):
         self.closeAppBtn.setToolTip(QCoreApplication.translate("MainWindow", u"Close", None))
 #endif // QT_CONFIG(tooltip)
         self.closeAppBtn.setText("")
+        self.label_4.setText(QCoreApplication.translate("MainWindow", u"No pic", None))
+        self.radioButton_4.setText(QCoreApplication.translate("MainWindow", u"Select", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u"No pic", None))
+        self.radioButton_3.setText(QCoreApplication.translate("MainWindow", u"Select", None))
+        self.label_2.setText(QCoreApplication.translate("MainWindow", u"No pic", None))
+        self.radioButton_2.setText(QCoreApplication.translate("MainWindow", u"Select", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"No pic", None))
+        self.radioButton_1.setText(QCoreApplication.translate("MainWindow", u"Select", None))
+        self.label_8.setText(QCoreApplication.translate("MainWindow", u"No pic", None))
+        self.radioButton_8.setText(QCoreApplication.translate("MainWindow", u"Select", None))
+        self.label_7.setText(QCoreApplication.translate("MainWindow", u"No pic", None))
+        self.radioButton_7.setText(QCoreApplication.translate("MainWindow", u"Select", None))
+        self.label_6.setText(QCoreApplication.translate("MainWindow", u"No pic", None))
+        self.radioButton_6.setText(QCoreApplication.translate("MainWindow", u"Select", None))
+        self.label_5.setText(QCoreApplication.translate("MainWindow", u"No pic", None))
+        self.radioButton_5.setText(QCoreApplication.translate("MainWindow", u"Select", None))
+        self.runButton.setText(QCoreApplication.translate("MainWindow", u"Run", None))
         self.pushButton.setText(QCoreApplication.translate("MainWindow", u"Find", None))
         self.lineEdit.setText("")
         self.lineEdit.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Type here", None))

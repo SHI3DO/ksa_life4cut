@@ -1,6 +1,7 @@
 import sys
 import os
 import webbrowser
+from PySide6.QtCore import QTimer
 
 # IMPORT / GUI AND MODULES AND WIDGETS
 # ///////////////////////////////////////////////////////////////
@@ -13,6 +14,7 @@ os.environ["QT_AUTO_SCREEN_SCALE_FACTOR"] = "1"
 # ///////////////////////////////////////////////////////////////
 widgets = None
 
+
 def load_file(filename):
     return os.path.join(os.path.dirname(__file__), filename)
 
@@ -20,6 +22,12 @@ def load_file(filename):
 class MainWindow(QMainWindow):
     def __init__(self):
         QMainWindow.__init__(self)
+
+        # Timer
+        self.timer = QTimer(self)
+        self.timer.setInterval(1000)
+        self.timer.timeout.connect(lambda: self.update())
+        self.timer.start()
 
         # SET AS GLOBAL WIDGETS
         # ///////////////////////////////////////////////////////////////
@@ -96,6 +104,13 @@ class MainWindow(QMainWindow):
         # ///////////////////////////////////////////////////////////////
         widgets.stackedWidget.setCurrentWidget(widgets.home)
         widgets.btn_home.setStyleSheet(UIFunctions.selectMenu(widgets.btn_home.styleSheet()))
+
+    # Update Functions
+    def update(self):
+        photo_file_list = os.listdir(load_file("Userdata/"))
+        photo_file_list = [file for file in photo_file_list if file.endswith(".png")]
+        print(f"{len(photo_file_list)}/8 taken")
+
 
     # BUTTONS CLICK
     # Post here your functions for clicked buttons

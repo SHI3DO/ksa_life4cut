@@ -20,8 +20,8 @@ from PySide6.QtWidgets import (QAbstractItemView, QAbstractScrollArea, QApplicat
     QHBoxLayout, QHeaderView, QLabel, QLineEdit,
     QMainWindow, QPlainTextEdit, QPushButton, QRadioButton,
     QScrollArea, QScrollBar, QSizePolicy, QSlider,
-    QStackedWidget, QTableWidget, QTableWidgetItem, QTextEdit,
-    QVBoxLayout, QWidget)
+    QStackedWidget, QTabWidget, QTableWidget, QTableWidgetItem,
+    QTextEdit, QVBoxLayout, QWidget)
 from . resources_rc import *
 
 class Ui_MainWindow(object):
@@ -31,8 +31,9 @@ class Ui_MainWindow(object):
         MainWindow.resize(1280, 720)
         MainWindow.setMinimumSize(QSize(940, 560))
         icon = QIcon()
-        icon.addFile(u":/icons/images/images/daisy.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon.addFile(u":/images/images/images/ksa_life4cut.png", QSize(), QIcon.Normal, QIcon.Off)
         MainWindow.setWindowIcon(icon)
+        MainWindow.setTabShape(QTabWidget.Triangular)
         self.styleSheet = QWidget(MainWindow)
         self.styleSheet.setObjectName(u"styleSheet")
         font = QFont()
@@ -989,9 +990,7 @@ class Ui_MainWindow(object):
         self.stackedWidget.setStyleSheet(u"background: transparent;")
         self.home = QWidget()
         self.home.setObjectName(u"home")
-        self.home.setStyleSheet(u"background-image: url(:/images/images/images/PyDracula_vertical.png);\n"
-"background-position: center;\n"
-"background-repeat: no-repeat;")
+        self.home.setStyleSheet(u"")
         self.stackedWidget.addWidget(self.home)
         self.widgets = QWidget()
         self.widgets.setObjectName(u"widgets")
@@ -1451,7 +1450,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.stackedWidget.setCurrentIndex(1)
+        self.stackedWidget.setCurrentIndex(0)
 
 
         QMetaObject.connectSlotsByName(MainWindow)

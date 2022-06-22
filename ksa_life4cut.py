@@ -13,6 +13,9 @@ os.environ["QT_AUTO_SCREEN_SCALE_FACTOR"] = "1"
 # ///////////////////////////////////////////////////////////////
 widgets = None
 
+def load_file(filename):
+    return os.path.join(os.path.dirname(__file__), filename)
+
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -150,6 +153,6 @@ class MainWindow(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    app.setWindowIcon(QIcon("icon/ksa_life4cut.ico"))
+    app.setWindowIcon(QIcon(load_file("Icon/ksa_life4cut.ico")))
     window = MainWindow()
     sys.exit(app.exec())
